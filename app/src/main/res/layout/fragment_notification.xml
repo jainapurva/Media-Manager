@@ -1,0 +1,16 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apurva.mediamanager.Menu_fragment.NotificationFragment">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_notification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="7dp"
+        android:clipToPadding="false"/>
+
+</android.support.design.widget.CoordinatorLayout>

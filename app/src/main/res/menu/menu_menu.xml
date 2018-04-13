@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.apurva.mediamanager.MenuActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="Add account"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_image"
+        android:title="Profile Image"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        />
+</menu>
