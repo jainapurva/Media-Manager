@@ -56,7 +56,7 @@ public class SettingsFragment extends Fragment {
     private class RecyclerAdapter extends RecyclerView.Adapter<SettingsFragment.RecyclerAdapter.ViewHolder> {
 
         private String[] setting_name={"General",
-                "Notification","Data Sync","Privacy","About"};
+                "Notification","Data Sync","Privacy","Display","About"};
 
         //private int[] image={R.drawable.ic_info_black_24dp,R.drawable.ic_settings_black_24dp};
 
